@@ -1,0 +1,62 @@
+---
+---
+
+$section-headings-color: #094f18;
+$header-bg-color: #7707b3;
+$header-bg-color-secondary: #094f18;
+
+
+@import "{{ site.theme }}";
+
+.project-name {
+    margin-top: 0;
+    margin-bottom: 0.1rem;
+  
+    @include large {
+      font-size: 4.25rem;
+    }
+  
+    @include medium {
+      font-size: 3.25rem;
+    }
+  
+    @include small {
+      font-size: 2.75rem;
+    }
+  }
+
+  .project-tagline {
+    margin-bottom: 2rem;
+    font-weight: normal;
+    opacity: 0.7;
+  
+    @include large {
+      font-size: 1.75rem;
+    }
+  
+    @include medium {
+      font-size: 1.65rem;
+    }
+  
+    @include small {
+      font-size: 1.5rem;
+    }
+  }
+
+  .site-footer-credits {
+    display: none;
+  }
+
+  .main-content p {
+    text-align: center;
+  }
+
+  .main-content strong {
+    font-size: 1.5em;
+  }
+
+  .bobajob-green {
+    font-style: italic;
+    color: #094f18;
+    text-align: center
+  }
